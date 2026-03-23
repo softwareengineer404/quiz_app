@@ -13,7 +13,9 @@ const questions = [
         answers: [
             { text: "vatican city", correct: true},
             { text: "bhutan", correct: false},
-            
+            { text: "nepal", correct: false},
+            { text: "shri lanka", correct: false}
+
         ]
     }
 ]
