@@ -8,4 +8,12 @@ const questions = [
             { text: "giraffe", correct: false}
         ]
     },
+    {
+        question: "which is the smallest country in the world?",
+        answers: [
+            { text: "vatican city", correct: true},
+            { text: "bhutan", correct: false},
+            
+        ]
+    }
 ]
