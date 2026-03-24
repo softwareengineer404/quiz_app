@@ -17,6 +17,24 @@ const questions = [
             { text: "shri lanka", correct: false}
 
         ]
+    },
+    {
+        question: "which is the largest desert in the world?",
+        answers: [
+            { text: "kalhari", correct: false},
+            { text "Gobi", correct: false},
+            { text: "sahra", correct: false},
+            { text: "antarctica", correct: true,}
+        ]
+    },
+    {
+        question: "which is the smallest continent in the world?",
+        answers: [
+            { text: "asia", correct: false},
+            { text: "australia", correct: true},
+            { text: "europe", correct: false},
+            { text: "antarctica", correct: false},
+        ]
     }
 ];
 const questionElement = document.getElementById("question");
