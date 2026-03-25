@@ -24,7 +24,7 @@ const questions = [
             { text: "kalhari", correct: false},
             { text: "gobi", correct: false},
             { text: "sahra", correct: false},
-            { text: "antarctica", correct: true,}
+            { text: "antarctica", correct: true},
         ]
     },
     {
@@ -43,13 +43,13 @@ const nextButton = document.getElementById("next-btn");
 let currentQuestionIndex = 0;
 let score = 0;
 function startQuiz() {
-    currentQuestionIndexQuestionIndex = 0;
+    currentQuestionIndex = 0;
     score = 0;
     nextButton.innerHTML = "Next";
     showQuestion();
 }
 function showQuestion() {
-    resetStste();
+    resetState();
     let currentQuestion = questions[currentQuestionIndex];
     let questionNo = currentQuestionIndex + 1;
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
